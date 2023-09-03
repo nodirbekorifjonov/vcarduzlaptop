@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(69, 90, 100); */
+}
+
+.screen {
+  margin-bottom: 60px;
+}
+
+.fullsrceen {
+  background-color: #005891;
+  padding-top: 60px;
+  width: 100%;
+}
+
+.screen-head {
+  padding-top: 60px !important;
+  max-width: 480px;
+  margin: auto;
+  padding: auto;
+  box-shadow: 0 -5px 40px 7px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  background-color: #005891;
+  color: #fff;
+}
+
+.avatar {
+  margin: auto;
+  padding: auto;
+  height: 95px;
+  width: 95px;
+  border-radius: 50px;
+  background-position: center center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.name {
+  padding: 20px 0 15px 0;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.job {
+  color: #fff;
+  opacity: 0.75;
+  font-size: 15px;
+}
+
+.call a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  width: 100%;
+  border-top: 1px solid #ffffff;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.body {
+  max-width: 480px;
+  margin: auto;
+  padding: 15px 0;
+  box-shadow: 0 -5px 40px 7px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.body ul {
+  list-style-type: none;
+}
+
+.body li {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 10px 0 10px 40px;
+  color: #000000;
+  /* border-bottom: 1px solid #dbdbdbb2; */
+}
+
+.list-icon {
+  width: 30px!important;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #005891;
+  color: white;
+}
+
+.list-icon svg path {
+  /* fill: #fff; */
+  stroke: #fff;
+}
+
+.item {
+  padding: 0 0 0 10px;
+}
+.border-btm {
+  margin-top: 10px;
+  width: 85%;
+}
+
+.body h6 {
+  color: #0c0c0c;
+  font-size: 16px;
+}
+
+.body h6 a {
+  color: #038ae2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.body p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .fullsrceen {
+    padding-top: 0;
+  }
+  .screen {
+    margin-bottom: 0;
+  }
+}
